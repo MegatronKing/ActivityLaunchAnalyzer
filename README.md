@@ -1,14 +1,17 @@
 # ActivityLaunchAnalyzer
 
-A tiny tool to analyze the launch time of Activity on Android
+A tiny tool to analyze the launch time of Activity on Android.
 ___
 
 Why would I need this?
 ----------------------
 
 Smooth is the user experience.
+
 When using this tool in the apps, we could know how much time was cost in the follow steps:
-layout, draw and biz. And a level toast shown after the page was launched.
+layout, draw and biz.
+
+And a level toast shown after the page was launched.
 
 Usage
 -----
@@ -20,8 +23,10 @@ ActivityLaunchTimeAnalyzer.install(this);
 ```
 
 **It needs the log permission:**
-adb shell pm grant [package-name] android.permission.READ_LOGS
 
+```java
+adb shell pm grant [package-name] android.permission.READ_LOGS
+```
 
 Limitations
 -----------
@@ -30,6 +35,11 @@ It works on Android 4.1+, and it needs the android.permission.READ_LOGS
 
 Examples
 -----------
+
+![enter image description here](/screenshot/device-2016-02-25-163808.png)
+![enter image description here](/screenshot/device-2016-02-25-163903.png)
+![enter image description here](/screenshot/device-2016-02-25-163945.png)
+![enter image description here](/screenshot/device-2016-02-25-163958.png)
 
 License
 --------
