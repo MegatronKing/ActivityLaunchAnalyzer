@@ -33,6 +33,8 @@ Limitations
 
 It works on Android 4.1+, and it needs the android.permission.READ_LOGS
 
+**The first run would not work after granting the permission, so killing the process and restart！**
+
 Examples
 -----------
 
