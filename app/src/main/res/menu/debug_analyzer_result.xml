@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/action_menu_bar"
+        android:icon="@android:drawable/ic_menu_sort_by_size"
+        android:showAsAction="always"
+        android:title="All">
+        <menu>
+            <item android:id="@+id/action_all"
+                android:title="All"/>
+            <item android:id="@+id/action_normal"
+                android:title="Perfect"/>
+            <item android:id="@+id/action_slight"
+                android:title="Normal"/>
+            <item android:id="@+id/action_warning"
+                android:title="Slow"/>
+            <item android:id="@+id/action_alert"
+                android:title="Serious"/>
+            <item android:id="@+id/action_fatal"
+                android:title="Fatal"/>
+        </menu>
+    </item>
+</menu>
